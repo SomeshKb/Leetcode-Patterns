@@ -1,5 +1,5 @@
 
-## ** 🚀 Two Pointer Technique 
+## ** 🚀 Two Pointer Technique  **
 
 The **Two Pointer** technique is a powerful optimization method used to solve array and string problems efficiently. Instead of using nested loops (O(N²)), we use two pointers to iterate through the data in a more optimal way, reducing time complexity to **O(N)** in many cases.
 
