@@ -1,11 +1,3 @@
-Here’s a **comprehensive guide** to the **Sliding Window** technique in **JavaScript**, including:
-
-✅ **How to spot when to use it**  
-✅ **Fixed-size & Variable-size Sliding Window examples**  
-✅ **How to determine if Sliding Window is the right choice**  
-✅ **Leetcode problems for practice**  
-
----
 
 # **🚀 Sliding Window Technique in JavaScript**
 
