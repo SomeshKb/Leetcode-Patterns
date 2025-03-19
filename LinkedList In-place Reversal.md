@@ -1,5 +1,5 @@
 # 🚀 **Linked List In-Place Reversal Technique**
----
+
 
 # ✅ **🔹 When to Use In-Place Reversal?**
 You should consider using **In-Place Reversal** when:
@@ -238,27 +238,65 @@ while (reversedKGroup) {
 
 ---
 
-# 🔥 **🔹 Leetcode Problems for Practice**
-✅ Here are **Leetcode problems** that can be solved using **In-Place Linked List Reversal**:
+# 🚀 **Leetcode Problems for Linked List In-Place Reversal**
 
-| **Problem** | **Difficulty** | **Link** |
-|-------------|----------------|----------|
-| **206. Reverse Linked List** | Easy | [🔗 Link](https://leetcode.com/problems/reverse-linked-list/) |
-| **92. Reverse Linked List II** | Medium | [🔗 Link](https://leetcode.com/problems/reverse-linked-list-ii/) |
-| **25. Reverse Nodes in k-Group** | Hard | [🔗 Link](https://leetcode.com/problems/reverse-nodes-in-k-group/) |
-| **143. Reorder List** | Medium | [🔗 Link](https://leetcode.com/problems/reorder-list/) |
-| **328. Odd Even Linked List** | Medium | [🔗 Link](https://leetcode.com/problems/odd-even-linked-list/) |
+# ✅ **🔥 Easy Problems**
+| **Problem**                         | **Leetcode Link**                                   | **Description**                       |
+|-------------------------------------|----------------------------------------------------|--------------------------------------|
+| **206. Reverse Linked List**         | [🔗 Link](https://leetcode.com/problems/reverse-linked-list/)          | Reverse an entire singly linked list |
+| **83. Remove Duplicates from Sorted List**  | [🔗 Link](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Remove duplicates in-place          |
+| **876. Middle of the Linked List**   | [🔗 Link](https://leetcode.com/problems/middle-of-the-linked-list/)     | Find the middle node using two pointers |
+| **21. Merge Two Sorted Lists**       | [🔗 Link](https://leetcode.com/problems/merge-two-sorted-lists/)        | Merge two linked lists in-place     |
+| **141. Linked List Cycle**           | [🔗 Link](https://leetcode.com/problems/linked-list-cycle/)             | Detect cycle using **slow & fast** pointers |
+| **234. Palindrome Linked List**      | [🔗 Link](https://leetcode.com/problems/palindrome-linked-list/)        | Check if the list is a palindrome by reversing half |
+
+
+
+# ✅ **⚡ Medium Problems**
+| **Problem**                         | **Leetcode Link**                                   | **Description**                         |
+|-------------------------------------|----------------------------------------------------|----------------------------------------|
+| **92. Reverse Linked List II**      | [🔗 Link](https://leetcode.com/problems/reverse-linked-list-ii/)         | Reverse a sublist between `m` and `n` |
+| **147. Insertion Sort List**        | [🔗 Link](https://leetcode.com/problems/insertion-sort-list/)            | Sort a linked list using insertion sort |
+| **143. Reorder List**               | [🔗 Link](https://leetcode.com/problems/reorder-list/)                   | Rearrange nodes in-place              |
+| **328. Odd Even Linked List**       | [🔗 Link](https://leetcode.com/problems/odd-even-linked-list/)           | Separate odd and even nodes           |
+| **61. Rotate List**                  | [🔗 Link](https://leetcode.com/problems/rotate-list/)                    | Rotate list by `k` steps in-place     |
+| **725. Split Linked List in Parts** | [🔗 Link](https://leetcode.com/problems/split-linked-list-in-parts/)     | Split a list into `k` parts in-place |
+| **19. Remove Nth Node From End**    | [🔗 Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Remove the `n`-th node from the end |
+| **430. Flatten a Multilevel Doubly Linked List** | [🔗 Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Flatten a multilevel linked list in-place |
+
+
+
+# ✅ **🚀 Hard Problems**
+| **Problem**                         | **Leetcode Link**                                   | **Description**                        |
+|-------------------------------------|----------------------------------------------------|---------------------------------------|
+| **25. Reverse Nodes in k-Group**    | [🔗 Link](https://leetcode.com/problems/reverse-nodes-in-k-group/)        | Reverse linked list in groups of `k` |
+| **23. Merge k Sorted Lists**        | [🔗 Link](https://leetcode.com/problems/merge-k-sorted-lists/)            | Merge multiple lists in-place         |
+| **146. LRU Cache**                   | [🔗 Link](https://leetcode.com/problems/lru-cache/)                        | LRU Cache implementation with linked list |
+| **1474. Delete N Nodes After M Nodes of a Linked List** | [🔗 Link](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | Delete `n` nodes after `m` nodes |
+| **138. Copy List with Random Pointer** | [🔗 Link](https://leetcode.com/problems/copy-list-with-random-pointer/)   | Clone a complex linked list           |
+| **1171. Remove Zero Sum Consecutive Nodes** | [🔗 Link](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/) | Remove consecutive nodes summing to zero |
+| **708. Insert into a Sorted Circular Linked List** | [🔗 Link](https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/) | Insert into circular linked list |
+| **815. Bus Routes**                  | [🔗 Link](https://leetcode.com/problems/bus-routes/)                       | Bus route scheduling using linked list |
+| **430. Flatten Multilevel Doubly Linked List** | [🔗 Link](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | Flatten a doubly linked list |
 
 ---
 
-# 🚀 **🔹 Summary**
-✅ **Key Techniques**:
-- Reverse the list in-place using **three pointers**.  
-- Reverse **sub-lists** or **k-groups** efficiently.  
-- Time Complexity → **O(N)**  
-- Space Complexity → **O(1)**  
+# ✅ **🔥 Key Patterns for In-Place Reversal Problems**
+### 🔹 **1️⃣ Reverse the Entire List**
+- Use **three pointers**: `prev`, `current`, `next`.  
+- Time complexity → **O(N)**  
+- Space complexity → **O(1)**  
 
----
+### 🔹 **2️⃣ Reverse a Sublist**
+- Use two pointers to **find the sublist**.  
+- Reverse the section by manipulating the links.  
+- Time complexity → **O(N)**  
+- Space complexity → **O(1)**  
 
-🔥 **Next Steps?**  
-Try solving the **Leetcode problems** above and let me know if you need explanations! 😊🚀
+### 🔹 **3️⃣ Reverse in k-Groups**
+- Iterate through the list **k** nodes at a time.  
+- Reverse the current group, keep track of the next node.  
+- Time complexity → **O(N)**  
+- Space complexity → **O(1)**  
+
+
